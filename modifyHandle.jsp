@@ -34,7 +34,7 @@
      try{
         Connection con=DriverManager.getConnection("jdbc:mysql://127.0.0.1/materialmanagement","root","123");
         Statement stmt=con.createStatement();
-        String sql="update fixedassets set Name='"+Name+"', Type='"+Type+"',Specifications='"+Specifications+"' ,Place='"+Place+"',Supplier='"+Supplier+"',Borrowed where No='"+No+"'";
+        String sql="update fixedassets set Name='"+Name+"', Type='"+Type+"',Specifications='"+Specifications+"' ,Place='"+Place+"',Supplier='"+Supplier+"',Borrowed ='"+Borrowed+"' where No='"+No+"'";
         System.out.println("sql="+sql);
         stmt.executeUpdate(sql);
 	con.close();
