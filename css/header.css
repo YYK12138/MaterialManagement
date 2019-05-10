@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+.container{
+	width:20vw;
+	height:18vw;
+	background:#f2f2f3;
+	
+}
+.title{
+	color:#01256e;
+	font-family:"myFirstFont";
+	font-size:1.5vw;
+	width:100%;
+	height:15%;
+	padding-left:2vw;
+	padding-top:1vw;
+}
+.title-text{
+	color:#01256e;
+	font-family:"myFirstFont";
+	font-size:1.5vw;
+}
+.container2{
+	width:100%;
+	height:67%;
+	padding-left:2vw;
+	padding-top:1vw;
+}
+.container2 img{
+	width: 16vw;
+    height: 10vw;
+}
+.text{
+	font-family: "Arial","Microsoft YaHei","\u5b8b\u4f53", Tahoma, Geneva, sans-serif;
+	color:#000000;
+	margin-left:2vw;
+	margin-top:2vw;
+	font-size:1vw;
+}
+.bottom{
+	width:18vw;
+	height:2px;
+	background:#cfd0d2;
+	margin-left:2vw;
+	
+	
+}
