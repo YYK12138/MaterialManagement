@@ -1,0 +1,11 @@
+<?xml version = "1.0"encoding = "UTF-8"?>
+<web-app>
+     <servlet>
+         <servlet-name>submitservlet</servlet-name>
+         <servlet-class>myservlet.control.HandleSubmit</servlet-class>
+     </servlet> 
+     <servlet-mapping>
+         <servlet-name>submitservlet</servlet-name>
+         <url-pattern>/submitservlet</url-pattern>
+     </servlet-mapping>
+</web-app>
